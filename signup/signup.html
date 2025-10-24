@@ -1,0 +1,166 @@
+<html><head>
+	<link href="styles/variable.css" rel="stylesheet" type="text/css">
+	<link href="styles/fancybox.css" rel="stylesheet" type="text/css">
+	<link href="styles/range-slider.css" rel="stylesheet" type="text/css">
+	<link href="styles/baddies_v%3D2.53.css" rel="stylesheet" type="text/css">
+	<link href="styles/ion.rangeSlider.min.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8"></head><body><div class="bx-popup bx-form bx-signup-form">
+		<div class="bx-popup-content popup-holder">
+			<form action="https://baddies.xxx/signup/" data-form="ajax" method="post">
+				<div class="bx-popup-header">
+					<div class="bx-popup-title bx-heading-h1">Sign up</div>
+				</div>
+
+				<div class="generic-error hidden"></div>
+
+				
+				<input type="hidden" name="custom1" id="custom1" value="https://baddies.xxx/static/images/bx/avatars/3.png">
+
+				<div class="bx-field-group">
+					<label class="bx-heading-h4 field-label" for="signup_username">Username</label>
+					<input id="signup_username" class="textfield" type="text" name="username" maxlength="100" placeholder="Enter your desired username">
+					<div class="field-error"></div>
+					<div class="bx-field-error-username"></div>
+				</div>
+
+				<div class="bx-field-group">
+					<label class="bx-heading-h4 field-label" for="signup_email">Email</label>
+					<input id="signup_email" class="textfield" type="text" name="email" maxlength="100" placeholder="Enter your email address">
+					<div class="field-error down"></div>
+				</div>
+
+				<div class="bx-field-group bx-password-field-group">
+					<label class="bx-heading-h4 field-label" for="signup_pass">Password</label>
+					<input id="signup_pass" class="textfield bx-password-field" type="password" name="pass" placeholder="Enter 6 characters or more">
+					<div class="field-error down"></div>
+					<div class="bx-show-pass">
+						<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+							<g clip-path="url(#clip0_3820_146044)">
+								<path d="M10.5064 7.56415C12.7776 7.56415 14.6189 9.40542 14.6189 11.6767C14.6189 13.948 12.7776 15.7892 10.5064 15.7892C8.2351 15.7892 6.39385 13.948 6.39385 11.6767C6.39385 9.40542 8.2351 7.56415 10.5064 7.56415ZM10.5064 3.96094C15.2497 3.96094 19.3443 7.19957 20.4804 11.7382C20.5838 12.1513 20.3328 12.57 19.9197 12.6734C19.5066 12.7768 19.0878 12.5258 18.9844 12.1126C18.0191 8.25644 14.5381 5.50314 10.5064 5.50314C6.47295 5.50314 2.99082 8.2588 2.02721 12.1173C1.92403 12.5304 1.50544 12.7817 1.09226 12.6786C0.679084 12.5754 0.427787 12.1568 0.530971 11.7436C1.66509 7.20236 5.76102 3.96094 10.5064 3.96094Z" fill="#33182D"></path>
+							</g>
+							<defs>
+								<clipPath id="clip0_3820_146044">
+									<rect width="20" height="20" fill="white" transform="translate(0.5 0.5)"></rect>
+								</clipPath>
+							</defs>
+						</svg>
+					</div>
+				</div>
+
+				<div class="bx-field-group bx-password-field-group2">
+					<label class="bx-heading-h4 field-label" for="signup_pass2">Password confirmation</label>
+					<input id="signup_pass2" class="textfield bx-password-field2" type="password" name="pass2" placeholder="Re-type your password">
+					<div class="field-error down"></div>
+					<div class="bx-show-pass2">
+					<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+						<g clip-path="url(#clip0_3820_146044)">
+							<path d="M10.5064 7.56415C12.7776 7.56415 14.6189 9.40542 14.6189 11.6767C14.6189 13.948 12.7776 15.7892 10.5064 15.7892C8.2351 15.7892 6.39385 13.948 6.39385 11.6767C6.39385 9.40542 8.2351 7.56415 10.5064 7.56415ZM10.5064 3.96094C15.2497 3.96094 19.3443 7.19957 20.4804 11.7382C20.5838 12.1513 20.3328 12.57 19.9197 12.6734C19.5066 12.7768 19.0878 12.5258 18.9844 12.1126C18.0191 8.25644 14.5381 5.50314 10.5064 5.50314C6.47295 5.50314 2.99082 8.2588 2.02721 12.1173C1.92403 12.5304 1.50544 12.7817 1.09226 12.6786C0.679084 12.5754 0.427787 12.1568 0.530971 11.7436C1.66509 7.20236 5.76102 3.96094 10.5064 3.96094Z" fill="#33182D"></path>
+						</g>
+						<defs>
+							<clipPath id="clip0_3820_146044">
+								<rect width="20" height="20" fill="white" transform="translate(0.5 0.5)"></rect>
+							</clipPath>
+						</defs>
+					</svg>
+				</div>
+				</div>
+
+				
+									<div class="bx-field-group">
+						<label class="bx-heading-h4 required">Please enter the security code from the image</label>
+
+						<div class="captcha-control">
+															<div class="image">
+									<div class="bx-image-field">
+										<img src="../captcha/signup/rand%3D1760726216" alt="Captcha image">
+										<label for="signup_code" class="field-label required">Security code*</label>
+										<input type="text" name="code" id="signup_code" class="textfield" autocomplete="off">
+									</div>
+									<div class="field-error up"></div>
+								</div>
+													</div>
+					</div>
+				
+				<div class="bx-signup-terms">
+					<div>By signing up, you agree to our</div>
+					<a href="https://baddies.xxx/legal" target="_blank">Terms and Conditions</a>
+				</div>
+
+				<input type="hidden" name="action" value="signup">
+				<input type="hidden" name="email_link" value="https://baddies.xxx/email/">
+				<input class="bx-button-send-form bx-button bx-button-primary bx-button-signup submit" type="submit" value="Sign up">
+				<br>
+              
+				<div class="bx-button-login bx-heading-h4">
+					<span>Already a member?</span>
+                    <a href="login.html" ><span></span>Sign in</a>
+					<!----
+					<a href="https://baddies.xxx/login/" data-fancybox="ajax">Sign in</a>
+					--->
+				</div>
+				
+				<div class="bx-signup-resend-confirmation">
+					<a href="https://baddies.xxx/resend-confirmation/" data-fancybox="ajax">Resend confirmation email</a>
+				</div>
+			</form>
+		</div>
+	</div>
+
+<script>
+	// $(document).ready(function () {
+	// 	let emailValue
+
+	// 	function waitForElement() {
+	// 		$('#signup_email').on('change', function() {
+	// 			emailValue = $(this).val();
+	// 			console.log(emailValue);
+	// 			$('.bx-success-text').text('test');
+	// 		});
+
+	// 		let intervalId = setInterval(function () {
+	// 			let element = $(".bx-success-text");				
+	// 			if (element.length > 0) {
+	// 				clearInterval(intervalId);
+	// 				element.text(emailValue);
+	// 				console.log("element ok");
+	// 			}
+	// 		}, 1000);
+	// 	};
+
+	// 	waitForElement();
+	// });
+
+	//Show hide password
+	$('.bx-show-pass').on('click', function () {
+		let passwordField = $('.bx-password-field');
+		let currentType = passwordField.attr('type');
+		passwordField.attr('type', currentType === 'password' ? 'text' : 'password');
+	});		
+	$('.bx-show-pass2').on('click', function () {
+		let passwordField2 = $('.bx-password-field2');
+		let currentType2 = passwordField2.attr('type');
+		passwordField2.attr('type', currentType2 === 'password' ? 'text' : 'password');
+	});
+
+	//Signup username validation
+	$('.bx-button-signup').on('click', function (e) {
+		let username = $('#signup_username').val();
+		let pattern = /^[a-zA-Z0-9_-]+$/;
+
+		if (!pattern.test(username)) {
+			$('#signup_username').val('');
+			$('.bx-field-error-username').text('Incorrect username');
+			$('.bx-field-error-username').show();
+			setTimeout(function () {
+				$('.bx-field-error-username').css('opacity', '1');
+			}, 1);
+		}
+		$('#signup_username').on('input', function() {
+			$('.bx-field-error-username').css('opacity', '0');
+			setTimeout(function () {
+				$('.bx-field-error-username').hide();
+				$('.bx-field-error-username').text('');
+			}, 600);
+		})
+	});
+</script></body></html>
